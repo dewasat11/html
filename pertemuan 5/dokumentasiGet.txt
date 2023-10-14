@@ -1,0 +1,5 @@
+git add .
+git commit -m "isi pesan"
+git remote add origin https://github.com/dewasat11/html.git (link repository)
+git branch -M master (Nama Branch)
+git push -u origin master (Nama Branch)
