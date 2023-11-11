@@ -5,15 +5,16 @@ menghitung luas :
 
 <?php
 //rumus persegi panjang
-$panjang;
-$lebar;
+$nilaipanjang;
+$nilailebar;
+$luas = $nilaipanjang * $nilailebar;
 
 //tampilan data
 echo "panjang\n";
-echo "=========\n";
-$panjang = fgets(STDIN);
-echo "lebar" ,  $panjang;
-$nilai = fgets(STDIN);
+$nilaipanjang = fgets(STDIN);
+echo "lebar\n";
+$nilailebar = fgets(STDIN) $nilaipanjang;
+echo "luas" , 
 
 
 ?>
