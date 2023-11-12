@@ -17,7 +17,7 @@ $jarijari = fgets(STDIN);
 
 //rumus
 $hasil = pi * ($jarijari**2);
-echo"Hasilcluas lingkaran: ". $hasil;
+echo"Hasil luas lingkaran: ". $hasil;
 
 
 
