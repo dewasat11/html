@@ -3,3 +3,4 @@ Buatlah class yaitu kendaraan dengan kententuan sbb :
     - buatlah fungsi/metod untuk set and get
     - buatlah object dari class tersebut dengan berbeda file
     - tampilkan hasilnya
+
