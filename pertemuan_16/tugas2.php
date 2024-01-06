@@ -2,12 +2,35 @@
  //parent class
  abstract class Car {
     public $name;
+    public $merk;
+    public $harga;
 
-    public function __construct($name) {
+    public function __construct($name, $merk,) {
         $this->name = $name;
+        $this->merk = $merk;
+        $this->harga = $harga;
     }
     abstract public function intro() : string;
  }
+
+ function set_name($name) {
+    $this ->name = $name;
+}
+function get_name() {
+    return $this->name;
+}
+function set_merk($merk) {
+    $this ->merk = $merk;
+}
+function get_merk() {
+    return $this->merk;
+}
+function set_harga($harga) {
+            $this ->harga = $harga;
+        }
+        function get_harga() {
+            return $this->harga;
+        }
 
  //child class
 
